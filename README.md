@@ -59,8 +59,8 @@ PIL
 # How to Use Training bash Copy code
 python train.py --data_dir <path_to_data> --arch vgg16 --learning_rate 0.001 --hidden_units 512 --epochs 5 --gpu  
 
-Predicting bash Copy code
-# python predict.py <path_to_image> <checkpoint.pth> --top_k 5 --category_names cat_to_name.json --gpu  
+# Predicting bash Copy code
+python predict.py <path_to_image> <checkpoint.pth> --top_k 5 --category_names cat_to_name.json --gpu  
 
 # Future Improvements
 Add support for additional architectures.
